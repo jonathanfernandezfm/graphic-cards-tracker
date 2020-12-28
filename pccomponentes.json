@@ -1,0 +1,150 @@
+{
+	"url": "https://www.pccomponentes.com",
+	"urlAvailability": "https://www.pccomponentes.com/ajax_nc/articles/price_and_availability?idArticle=",
+	"tracking": [
+		{
+			"id": "328847",
+			"slug": "msi-geforce-gtx-1660-super-ventus-oc-6gb-gddr6"
+		},
+		{
+			"id": "334271",
+			"slug": "zotac-geforce-rtx-3060ti-d6-twin-edge-oc-8gb-gddr6"
+		},
+		{
+			"id": "335762",
+			"slug": "gigabyte-geforce-rtx-3060-ti-gaming-oc-8gb-gddr6"
+		},
+		{
+			"id": "335759",
+			"slug": "gigabyte-geforce-rtx-3060-ti-eagle-oc-8gb-gddr6"
+		},
+		{
+			"id": "335763",
+			"slug": "gigabyte-geforce-rtx-3060-ti-gaming-oc-pro-8gb-gddr6"
+		},
+		{
+			"id": "337090",
+			"slug": "msi-rtx-3060-ti-gaming-x-trio-8gb-gddr6"
+		},
+		{
+			"id": "334268",
+			"slug": "zotac-geforce-rtx-3060-ti-d6-twin-edge-8gb-gddr6"
+		},
+		{
+			"id": "337095",
+			"slug": "msi-rtx-3060-ti-ventus-2x-oc-8gb-gddr6"
+		},
+		{
+			"id": "334746",
+			"slug": "asus-geforce-rtx-3060ti-dual-o8g-8gb-gddr6"
+		},
+		{
+			"id": "334744",
+			"slug": "asus-tuf-geforce-rtx-3060ti-o8g-gaming-8gb-gddr6"
+		},
+		{
+			"id": "337145",
+			"slug": "evga-geforce-rtx-3060-ti-ftw3-ultra-8gb-gddr6"
+		},
+		{
+			"id": "337092",
+			"slug": "msi-rtx-3060-ti-ventus-3x-oc-8gb-gddr6"
+		},
+		{
+			"id": "335758",
+			"slug": "gigabyte-aorus-geforce-rtx-3060-ti-master-8gb-gddr6"
+		},
+		{
+			"id": "334331",
+			"slug": "pny-geforce-rtx-3060ti-xlr8-gaming-revel-epic-x-rgb-edition-8gb-gddr6"
+		},
+		{
+			"id": "337152",
+			"slug": "evga-geforce-rtx-3060-ti-xc-8gb-gddr6"
+		},
+		{
+			"id": "339432",
+			"slug": "asus-rog-strix-geforce-rtx-3060ti-o8g-gaming-8gb-gddr6"
+		},
+		{
+			"id": "335761",
+			"slug": "gigabyte-geforce-rtx-3060-ti-eagle-8gb-gddr6"
+		},
+		{
+			"id": "324377",
+			"slug": "asus-tuf-gaming-geforce-rtx-3070-oc-8gb-gddr6"
+		},
+		{
+			"id": "329972",
+			"slug": "zotac-gaming-geforce-rtx-3070-twin-edge-oc-8gb-gddr6"
+		},
+		{
+			"id": "317595",
+			"slug": "gigabyte-geforce-rtx-3080-gaming-oc-10g-10gb-gddr6x"
+		},
+		{
+			"id": "319027",
+			"slug": "evga-geforce-rtx-3080-ftw3-ultra-gaming-10gb-gddr6x"
+		},
+		{
+			"id": "335135",
+			"slug": "zotac-gaming-geforce-rtx-3080-amp-holo-10gb-gddrx6"
+		},
+		{
+			"id": "317842",
+			"slug": "msi-geforce-rtx-3080-gaming-x-trio-10gb-gddr6x"
+		},
+		{
+			"id": "333012",
+			"slug": "msi-geforce-rtx-3080-suprim-x-10gb-gddr6x"
+		},
+		{
+			"id": "317642",
+			"slug": "asus-tuf-geforce-rtx-3080-oc-10gb-gddr6x"
+		},
+		{
+			"id": "320405",
+			"slug": "evga-geforce-rtx-3080-xc3-ultra-gaming-10gb-gddr6x"
+		},
+		{
+			"id": "324707",
+			"slug": "gigabyte-geforce-rtx-3080-vision-oc-10gb-gddr6x"
+		},
+		{
+			"id": "324699",
+			"slug": "gigabyte-aorus-geforce-rtx-3080-master-10gb-gddr6x"
+		},
+		{
+			"id": "329703",
+			"slug": "gigabyte-aorus-geforce-rtx-3080-xtreme-10gb-gddr6x"
+		},
+		{
+			"id": "317597",
+			"slug": "gigabyte-geforce-rtx-3080-eagle-oc-10g-10gb-gddr6x"
+		},
+		{
+			"id": "317844",
+			"slug": "msi-geforce-rtx-3080-ventus-3x-oc-10gb-gddr6x"
+		},
+		{
+			"id": "317751",
+			"slug": "pny-geforce-rtx-3080-xlr8-gaming-revel-epic-x-rgb-triple-fan-edition-10gb-gddr6x"
+		},
+		{
+			"id": "321965",
+			"slug": "zotac-gaming-geforce-rtx-3080-trinity-oc-10gb-gddr6x"
+    },
+    {
+			"id": "317692",
+			"slug": "zotac-gaming-geforce-rtx-3080-trinity-10gb-gddr6x"
+		},
+		{
+			"id": "319022",
+			"slug": "evga-geforce-rtx-3080-xc3-gaming-10gb-gddr6x"
+		},
+		{
+			"id": "317644",
+			"slug": "asus-tuf-geforce-rtx-3080-10gb-gddr6x"
+		}
+	]
+}
