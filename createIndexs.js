@@ -8,7 +8,7 @@ const PCCOM_URLS = [
   'https://www.pccomponentes.com/listado/ajax?idFilters[]=7793&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203060%20Series&idFamilies[]=6',
   'https://www.pccomponentes.com/listado/ajax?idFilters[]=7501&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203070%20Series&idFamilies[]=6',
   'https://www.pccomponentes.com/listado/ajax?idFilters[]=7498&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203080%20Series&idFamilies[]=6',
-] 
+]
 
 const pccomScrap = async () => {
   let graphics = [];
@@ -31,7 +31,7 @@ const pccom = async (url, page) => {
     tracking.push({id: item.getAttribute("data-id"), name: item.getAttribute("data-name"), link: link})
   })
 
-  console.log(`Saved ${tracking.length} articles`)
+  console.log(`PCCOM: Saved ${tracking.length} articles`)
   if(tracking.length != 0) {
     console.log('Calling again');
     tracking = tracking.concat(await pccom(url, page+1));
@@ -41,4 +41,5 @@ const pccom = async (url, page) => {
   }
 }
 
+// PCCOMPONENTES SCRAPPING
 pccomScrap();
