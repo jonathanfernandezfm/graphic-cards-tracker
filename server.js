@@ -85,6 +85,10 @@ const coolmod = async () => {
 
 setInterval(() => {
   console.log("\x1b[36mCHECKING PCCOMPONENTES\x1b[0m");
+  if(pccomponentes.tracking) 
+    if(pccomponentes.tracking.length == 0)
+      console.log("Missing index. Generate it with 'npm run indexs'");
+  
   pccomponentes.tracking.forEach(async ({id, name, link}, index) => {
     checkAvailabilityPccom(id, name, link);
   })
