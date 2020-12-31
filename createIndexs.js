@@ -1,24 +1,19 @@
 const axios = require('axios');
-const pccomponentes = require('./pccomponentes.json');
+const pccomponentes_json = require('./index/pccomponentes.json');
+const config = require('./config/config.json');
 const fs = require('fs');
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 
-const PCCOM_URLS = [
-  'https://www.pccomponentes.com/listado/ajax?idFilters[]=7793&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203060%20Series&idFamilies[]=6',
-  'https://www.pccomponentes.com/listado/ajax?idFilters[]=7501&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203070%20Series&idFamilies[]=6',
-  'https://www.pccomponentes.com/listado/ajax?idFilters[]=7498&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203080%20Series&idFamilies[]=6',
-]
-
 const pccomScrap = async () => {
   let graphics = [];
-  for (const url of PCCOM_URLS) {
+  for (const url of config.PCCOM_URL) {
     graphics = graphics.concat(await pccom(url, 0));
   }
 
   console.log("PCCOMPONENTES ENCONTRADAS: ", graphics.length)
-  pccomponentes.tracking = graphics;
-  fs.writeFileSync('pccomponentes.json', JSON.stringify(pccomponentes));
+  pccomponentes_json.tracking = graphics;
+  fs.writeFileSync('pccomponentes.json', JSON.stringify(pccomponentes_json));
 }
 
 const pccom = async (url, page) => {

@@ -1,0 +1,13 @@
+{
+  "VERSUS_URL": [
+    "?filter-modelo=rtxr-3060-ti-1268&_=1609186482495",
+    "?filter-modelo=rtxr-3070-1224&_=1609188222878",
+    "?filter-modelo=rtxr-3080-1225&_=1609188222880"
+  ],
+  "PCCOM_URL": [
+    "https://www.pccomponentes.com/listado/ajax?idFilters[]=7793&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203060%20Series&idFamilies[]=6",
+    "https://www.pccomponentes.com/listado/ajax?idFilters[]=7501&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203070%20Series&idFamilies[]=6",
+    "https://www.pccomponentes.com/listado/ajax?idFilters[]=7498&order=relevance&gtmTitle=Tarjetas%20Gr%C3%A1ficas%20GeForce%20RTX%203080%20Series&idFamilies[]=6"
+  ],
+  "COOLMOD_URL": "https://www.coolmod.com/tarjetas-gr%C3%A1ficas?f=571::RTX%203080||571::RTX%203070||571::RTX%203060"
+}
